@@ -1,0 +1,39 @@
+:root{
+	--primary-color: #1E00BE;
+	--secondary-color: #1492E6;
+}
+.card p{
+	color : black;
+	font-size: 17px;
+}
+.card h6{
+	font-weight: bold;
+	color :  var(--primary-color);
+}
+.card {
+	margin-bottom: 25px;
+}
+.card:hover{
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+hr{
+	border-top:5px solid  var(--primary-color);
+	width: 90px;
+	float: left;
+}
+
+section {
+	min-height: 420px;
+}
+.Diskon h1{
+	font-weight: bolder;
+}
+.Diskon span{
+	color: var(--secondary-color);
+}
+footer{
+	background-color: var(--primary-color); 
+}
+footer p{
+	font-weight: bold;
+}
